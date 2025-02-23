@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
         int num [] = {2,3,1,7,6};
         int temp=0;
+        System.out.println("The values before finding highest value :" + Arrays.toString(num));
         for(int i=0;i<num.length;i++){
             for(int j=i+1;j<num.length;j++) {
                 if (num[i] > num[j]) {
