@@ -14,8 +14,10 @@ public class Main {
                     num[j] = temp;
                 }
             }
-            System.out.println("This is simple exmple");
         }
         System.out.println("The sec highest number is :" +num[num.length-2]);
+        System.out.println("The sec highest number is :" +num[num.length-3]);
+        System.out.println("The sec highest number is :" +num[num.length-4]);
+        System.out.println("The sec highest number is :" +num[num.length-5]);
     }
 }
